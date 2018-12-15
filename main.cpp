@@ -41,7 +41,7 @@ int main()
     const uint32_t FPS = 60;
     bool keys[] = {false, false, false, false};
 	
-	INIT_TETROMINOS()
+	INIT_TETROMINOS();
     for (auto &p : field)
         p = true;
 
